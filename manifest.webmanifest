@@ -1,0 +1,52 @@
+{
+  "name": "Estintori v2",
+  "short_name": "Estintori v2",
+  "description": "Gestione delle scadenze di manutenzione degli estintori (versione 2)",
+  "lang": "it",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f1ec",
+  "theme_color": "#1f5f8b",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Da consegnare",
+      "short_name": "Consegne",
+      "url": "./index.html#consegne"
+    },
+    {
+      "name": "Da fare",
+      "url": "./index.html#fare"
+    },
+    {
+      "name": "Giri",
+      "url": "./index.html#giri"
+    },
+    {
+      "name": "Nuovo cliente",
+      "short_name": "Nuovo",
+      "url": "./index.html#nuovo"
+    }
+  ]
+}
